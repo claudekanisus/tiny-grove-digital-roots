@@ -14,12 +14,14 @@ import {
 import heroCharacter from "@/assets/hero-character.jpg";
 import collaboration from "@/assets/collaboration.jpg";
 import happyCharacter from "@/assets/happy-character.jpg";
+import Navigation from "@/components/Navigation";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background overflow-hidden">
+      <Navigation />
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-4 bg-gradient-hero">
+      <section id="hero" className="relative min-h-screen flex items-center justify-center px-4 bg-gradient-hero pt-16">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-20 left-10 w-4 h-4 bg-primary rounded-full animate-pulse"></div>
           <div className="absolute top-40 right-20 w-6 h-6 bg-secondary rounded-full float"></div>
@@ -59,7 +61,7 @@ const Index = () => {
       </section>
 
       {/* About Us Section */}
-      <section className="py-20 px-4 relative">
+      <section id="about" className="py-20 px-4 relative">
         <div className="absolute inset-0 bg-gradient-glass"></div>
         <div className="container mx-auto relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -96,7 +98,7 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 px-4">
+      <section id="services" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-heading font-bold text-foreground mb-6">
@@ -155,7 +157,7 @@ const Index = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-20 px-4 bg-gradient-card">
+      <section id="why-us" className="py-20 px-4 bg-gradient-card">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-12">
@@ -240,7 +242,7 @@ const Index = () => {
       </section>
 
       {/* Contact CTA Section */}
-      <section className="py-20 px-4 bg-gradient-primary relative overflow-hidden">
+      <section id="contact" className="py-20 px-4 bg-gradient-primary relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-32 h-32 bg-background rounded-full float"></div>
           <div className="absolute bottom-20 right-20 w-24 h-24 bg-background rounded-full float-delayed"></div>
