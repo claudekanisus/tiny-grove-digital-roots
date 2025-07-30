@@ -11,7 +11,7 @@ import {
   Settings,
   Mail
 } from "lucide-react";
-import heroCharacter from "@/assets/hero-character.jpg";
+import heroCharacter from "@/assets/hero-character.png";
 import collaboration from "@/assets/collaboration.jpg";
 import happyCharacter from "@/assets/happy-character.jpg";
 import Navigation from "@/components/Navigation";
