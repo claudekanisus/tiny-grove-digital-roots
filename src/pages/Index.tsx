@@ -15,6 +15,7 @@ import heroCharacter from "@/assets/hero-character.png";
 import collaboration from "@/assets/collaboration.jpg";
 import happyCharacter from "@/assets/happy-character.jpg";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -268,6 +269,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 };
