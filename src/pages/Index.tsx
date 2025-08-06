@@ -243,17 +243,17 @@ const Index = () => {
       </section>
 
       {/* Contact CTA Section */}
-      <section id="contact" className="py-20 px-4 bg-gradient-primary relative overflow-hidden">
+      <section id="contact" className="py-16 px-4 bg-gradient-primary relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-32 h-32 bg-background rounded-full float"></div>
           <div className="absolute bottom-20 right-20 w-24 h-24 bg-background rounded-full float-delayed"></div>
         </div>
         
         <div className="container mx-auto text-center relative z-10">
-          <h2 className="text-5xl font-heading font-bold text-primary-foreground mb-6">
+          <h2 className="text-4xl font-heading font-bold text-primary-foreground mb-4">
             Ready to Grow? Get in Touch
           </h2>
-          <p className="text-xl text-primary-foreground/80 mb-12 max-w-2xl mx-auto">
+          <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
             Let's start building your digital presence today. We're excited to hear about your project!
           </p>
           
