@@ -38,8 +38,8 @@ const Index = () => {
             <p className="text-xl lg:text-2xl text-muted-foreground font-light max-w-lg">
               We help startups launch and grow their digital presence.
             </p>
-            <Button className="hero-btn text-lg">
-              Explore More
+            <Button asChild className="hero-btn text-lg">
+              <a href="/get-started">Get Started</a>
             </Button>
           </div>
           

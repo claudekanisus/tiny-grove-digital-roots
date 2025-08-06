@@ -33,8 +33,8 @@ const Navigation = () => {
             <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
               Contact
             </a>
-            <Button className="hero-btn">
-              Get Started
+            <Button asChild className="hero-btn">
+              <a href="/get-started">Get Started</a>
             </Button>
           </div>
 
@@ -63,8 +63,8 @@ const Navigation = () => {
               <a href="#contact" className="block text-muted-foreground hover:text-primary transition-colors">
                 Contact
               </a>
-              <Button className="hero-btn w-full">
-                Get Started
+              <Button asChild className="hero-btn w-full">
+                <a href="/get-started">Get Started</a>
               </Button>
             </div>
           </div>
